@@ -4,7 +4,6 @@
 处理中文
 ![Image text](https://raw.githubusercontent.com/nengm/WordProcessing/master/screenshots/1.png)
 ![Image text](https://raw.githubusercontent.com/nengm/WordProcessing/master/screenshots/2.png)
-
 处理泰文
 ![Image text](https://raw.githubusercontent.com/nengm/WordProcessing/master/screenshots/3.png)
 
