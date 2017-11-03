@@ -34,13 +34,13 @@ int processing(QString text, QString fontStr, QList<QPoint> *list_Point)
 
     painter.setFont(font);
 
-    //X轴居中，Y轴居中
+    //X轴左对齐，Y轴居中
     int flats = Qt::AlignLeft|Qt::AlignVCenter;
 
     //在位图上画图
     painter.drawText(image.rect(),flats,text);
 
-    //纵向默认32像素
+    //竖向默认32像素
     for(int i=0;i<32 ;i++){
         //横向长度默认32像素，每次取得8位，顾设置每个字32像素需要4次循环
         for(int j=0;j<4*textCount;j++)
