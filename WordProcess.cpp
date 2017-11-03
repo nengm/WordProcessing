@@ -11,7 +11,7 @@ int processing(QString text, QString fontStr, QList<QPoint> *list_Point)
         return 0;
     }
 
-    //设置默认500个字
+    //设置默认500个字,取字模会自动过滤空白
     int textCount = 500;
 
     //位图
